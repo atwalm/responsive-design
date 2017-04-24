@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pet Application Form</title>
+  </head>
+  <body>
+    <h1> Adopt a pet Today!</h1>
+<form>
+  <label> Your full name:
+  <input type="text" name="full-name">
+</label>
+<br>
+<label for="pet-name">What would your name a dog</label>
+  <input placeholder="steve" type="text" name="pet-name" id="pet-name">
+<br>
+  <label for="pet-bread">What bread of dag are you interested in?</label>
+    <input type="text" name="pet-name" id="pet-bread" value="chihuahua" disabled>
+  <br>
+  <label for="pet-color">What would color of your dog</label>
+    <input type="text" name="pet-color" id="pet-color" required>
+<br>
+<label for ="personality">What personality do you like in pet?</label>
+<select name="personality">
+  <option value="">please choose one</option>
+  <option value="goo">goofy</option>
+  <option value="goo">Brave</option>
+  <option value="goo">Mopey</option>
+  <option value="goo">Hyper</option>
+</select>
+<input type="number" max="80">
+<fieldset>
+  <legend>How many child do you have?</legend>
+<label>
+<input type="radio" name="child-count" value="0">
+Zero
+</label>
+<label>
+<input type="radio" name="child-count" value="2">
+1
+</label>
+<label>
+<input type="radio" name="child-count" value="4">
+more than 1
+</label>
+</fieldset>
+
+<fieldset>
+  <legend>what is the age group of your kids?</legend>
+  <label>
+    <input type="radio" name="child-age" value="1 to 5 year">
+    1 to 5 years
+  </label>
+  <label>
+    <input type="radio" name="child-age" value="1 to 5 year">
+    5 to 10 years
+  </label>
+  <label>
+    <input type="radio" name="child-age" value="1 to 5 year">
+    10to 15 years
+  </label>
+</fieldset>
+
+<fieldset>
+<legend>What animal are you intersed in adopting?</legend>
+<label>
+  <input type="checkbox" name="species" value="hamster">
+  Hamster
+</label>
+<label>
+  <input type="checkbox" name="species" value="cat">
+  Cat
+</label>
+<label>
+  <input type="checkbox" name="species" value="iguana">
+  Iguana
+</label>
+</fieldset>
+<label>other comments?
+  <textarea name="comments"></textarea>
+</label><br>
+<input type="email">
+<input type="range" min="1" max="10">
+<input type="date">
+
+  <input type="Submit" name="submit" value="get a dog">
+</form>
+
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Web Design</title>
+
+<style>
+.container {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 1000px;
+    height: 1050px;
+    border: 2px solid gray;
+    margin-left: 30rem;
+    background-color: lightblue;
+    font-size: 25px;
+
+}
+</style>
+</head>
+
+<body>
+<form>
+<h1 style="margin-left:55rem">Responsive Web Design </h1>
+
+<div class="container">
+  <h2>Problems That Responsive Web Design Solves</h2>
+  <p>Responsive Web design is the approach that respond to the user's behavior and environment based on screen size.</p>
+  <p>A RWD websites only requires one set of code and automatically adjusts and adapts to the size of the device's screen being used to view it.</p>
+  <p>Before RWD, creating an additional mobile site was the traditional approach which is expensive, however, it is no longer the only way to optimize for multiple devices.</p>
+  <p>Luckily, creating an RWD website will save you both time and money when it comes to mobile development.<p>
+  <p> Optimal viewing experience - easy reading and navigation with a minimum of resizing, panning, and scrolling - across a wide range of devices</p>
+<P>RWD websites only require one set of code it means no longer will you have to track user journeys, conversion paths, and redirections through multiple websites</P>
+<fieldset>
+  <legend>Please answers these questions?</legend>
+  <label for="interested">Why are you interested in making your website responsive?</label>
+    <input type="text" name="interested" id="interested" required>
+    <br><br>
+    <label for="visitors">How many unique visitors does your website receive daily?</label>
+    <input type="number" name="visitors" id="visitors" max="80" required>
+    <br><br>
+    <label for="concern">What is your biggest concern with your current website?</label>
+    <select name="concern" id="concern">
+      <option value="">please choose one</option>
+      <option value="complex">complex</option>
+      <option value="speed">unnavigable</option>
+      <option value="content">content quality</option>
+
+    </select><br><br>
+
+ <label>Visitors Catalog?</label><br><br>
+    <label>
+      <input type="radio" name="students" value="students">
+      Education-purpose
+    </label>
+    <label>
+      <input type="radio" name="students" value="business">
+    Business-purpose
+    </label>
+    <label>
+      <input type="radio" name="students" value="gernel">
+      Gernel-purpose
+    </label><br><br>
+
+    <label>Other comments?
+      <textarea name="comments"></textarea>
+
+  </label>
+    <br><br>
+    <input type="Submit" name="submit" value="SUBMIT">
+
+</fieldset>
+</div>
+</form>
+</body>
+</html>
